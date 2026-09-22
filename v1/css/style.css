@@ -1,0 +1,21 @@
+.game-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10em;
+    height: 5em;
+    border: 1px solid black;
+
+    
+}
+
+
+.gamespace {
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+

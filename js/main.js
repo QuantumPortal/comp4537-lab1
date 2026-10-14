@@ -96,7 +96,7 @@ function winGame() {
   document.getElementById("gamespace").style.display = "none"
 
   let win = document.createElement("p")
-  win.innerText = "Excellent memory!"
+  win.innerText = STRINGS["win-game"]
   document.getElementById("body").appendChild(win)
 }
 
@@ -109,7 +109,7 @@ async function loseGame(buttons) {
   await sleep(3000)
   document.getElementById("gamespace").style.display = "none"
   let lose = document.createElement("p")
-  lose.innerText = "bro u lost"
+  lose.innerText = STRINGS["lose-game"]
   document.getElementById("body").appendChild(lose)
 }
 
